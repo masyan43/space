@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Space</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Montserrat:400,700" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">	
+	<link rel="stylesheet" type="text/css" href="css/carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/planets.css">
+	<link rel="stylesheet" type="text/css" href="css/modal_planets.css">
+	<link rel="stylesheet" media="(max-width: 980px)" href="css/index-md.css">
+	<link rel="stylesheet" media="(max-width: 640px)" href="css/index-sm.css">
+	<link rel="stylesheet" media="(max-width: 500px)" href="css/index-xs.css">
+</head>
+<body>	
+	<header id="menu" class="default">
+	
+		<ul>
+			<li class="backtotop" id="nav_home"><a href="#home">Home</a></li>
+			<li id="nav_facts"><a href="#facts">Facts</a></li>
+			<li id="nav_books"><a href="#books">Books</a></li>			
+			<li id="nav_planets"><a href="#planets">Planets</a></li>
+			<li id="nav_contacts" class="bottom"><a href="#contacts">Contacts</a></li>
+		</ul>
+	</header>
+	<img src="images/space.jpg" alt="Earth from space" id="earth">
+
+	
+	<!-- Quotes -->
+	<div>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="slider_content">
+            	
+            		<div class="sagan"></div>
+            	
+            	<p>
+            		<span class="quote_text">The universe is not required to be in perfect harmony with human ambition</span> <br> <br>
+            		<span class="quote_author">Carl Sagan</span>
+            	</p>
+            </div>
+        </div>
+		<div class="item">
+            <div class="slider_content">
+            	<a href="https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson" target="_blank">
+            		<div class="tyson"></div>
+            	</a>
+            	<p>
+            		<span class="quote_text neil-xs">Philosophically, the universe has really never made things in ones. The Earth is special and everything else is different? No, we've got seven other planets. The sun? No, the sun is one of those dots in the night sky. The Milky Way? No, it's one of a hundred billion galaxies. And the universe – maybe it's countless other universes.</span> <br> <br>
+            		<span class="quote_author">Neil deGrasse Tyson</span>
+            	</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="slider_content">
+            	<a href="https://en.wikipedia.org/wiki/Stephen_Hawking" target="_blank">
+            		<div class="hawking"></div>
+            	</a>
+            	<p>
+            		<span class="quote_text">Look up at the stars and not down at your feet. Try to make sense of what you see, and wonder about what makes the universe exist. Be curious. </span> <br> <br>
+            		<span class="quote_author">Stephen Hawking</span>
+            	</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="slider_content">
+            	<a href="https://en.wikipedia.org/wiki/Douglas_Adams" target="_blank">
+            		<div class="adams"></div>
+            	</a>
+            	<p>
+            		<span class="quote_text">Space is big. You just won't believe how vastly, hugely, mind-bogglingly big it is. I mean, you may think it's a long way down the road to the drug store, but that's just peanuts to space. </span> <br> <br>
+            		<span class="quote_author">Douglas Adams</span>
+            	</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="slider_content">
+            	<a href="https://en.wikipedia.org/wiki/Michio_Kaku" target="_blank">
+            		<div class="kaku"></div>
+            	</a>
+            	<p>
+            		<span class="quote_text">One in 200 stars has habitable Earth-like planets surrounding it - in the galaxy, half a billion stars have Earth-like planets going around them - that's huge, half a billion. So when we look at the night sky, it makes sense that someone is looking back at us.</span> <br> <br>
+            		<span class="quote_author">Michio Kaku</span>
+            	</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="slider_content">
+            	<a href="https://en.wikipedia.org/wiki/Isaac_Newton" target="_blank">
+            		<div class="newton"></div>
+            	</a>
+            	<p>
+            		<span class="quote_text">Absolute space, in its own nature, without regard to anything external, remains always similar and immovable. Relative space is some movable dimension or measure of the absolute spaces, which our senses determine by its position to bodies, and which is vulgarly taken for immovable space. </span> <br> <br>
+            		<span class="quote_author">Isaac Newton</span>
+            	</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+	</div>
+	<!-- Facts Block -->
+	<div id="facts">	
+		<div id="facts_head">			
+			<h1>Find more interesting facts!</h1>			
+		</div>
+		<main>
+			<aside>
+				<ul>
+					<li name="#fact1" class="facts active_fact_li">Quarantine after returning</li>
+					<li name="#fact2" class="facts">Space is not that far away</li>
+					<li name="#fact3" class="facts">The moon looks bigger on the horizon</li>
+					<li name="#fact4" class="facts">You can cry in space but your tears don’t fall</li>
+					<li name="#fact5" class="facts">Dwarf planet Makemake</li>
+					<li name="#fact6" class="facts">The change of North Star</li>
+					<li name="#fact7" class="facts">Dance of Andromeda and Milky Way</li>
+					<li name="#fact8" class="facts">The Moon is drifting away</li>
+					<li name="#fact9" class="facts">The Sun is an almost perfect sphere</li>
+					<li name="#fact10" class="facts">Voyager 1 - furthest manmade object</li>
+				</ul>
+			</aside>
+			<article>
+				<div class="facts_back">	
+					<div class="fact active_fact" id="fact1"><img src="images/facts/fact1.jpg" alt="" class="factImage"><p class="content">There is a famous image of President Nixon talking to the Apollo 11 crew consisting of Michael Collins, Neil Armstrong and Buzz Aldrin. This continued until after the Apollo 14 crew returned safely. After this it was decided that the Moon did not contain any deadly diseases. The Apollo 13 crew, who had a malfunction and had to return to Earth, did not have to be quarantined after their re-entry as they didn’t actually walk on the moon.</p></div>
+					<div class="fact" id="fact2"><img src="images/facts/fact2.jpg" alt="" class="factImage"><p class="content">Space officially begins at the universal marker of the Karman Line. This invisible boundary is 100km above the Earth. In theory if you could drive your car upwards, you could be in space in less than hour.</p></div>
+					<div class="fact" id="fact3"><img src="images/facts/fact3.jpg" alt="" class="factImage"><p class="content">There is an optical illusion which makes the moon appear to be larger the lower it is in the sky. The apparent magnification is not caused by our atmosphere. It is more of a mind trick. When the moon is closer to the horizon, it is closer to objects like buildings and trees which therefore in comparison makes the moon look bigger. However there are times when the moon really is bigger. During its elliptical orbit the moon has times when it is actually slightly closer to the Earth (Perigee) or further from the Earth (apogee). This happens about once a month, due the moon’s orbit around the Earth. Usually is not noticeable to the eye. However when a full moon occurs at the same time of the moon’s perigee it can be called a Super moon and appears 12-14% bigger than normal!</p></div>
+					<div class="fact" id="fact4"><img src="images/facts/fact4.jpg" alt="" class="factImage"><p class="content">On-board the International Space Station, water floats like bubbles or spheres. However the water will cling to a surface until it is dislodged. This means that tears start to form bubbles around your eyes as the weightless environment is not causing your tears to fall. This sounds really cool but it can be dangerous. ESA astronaut Luca Parmitano suffered a space suit leak whilst on a spacewalk. The water leaked into his helmet covered his eyes and ears, but thankfully he made it back into the Space Station unharmed, but if not he could have drowned in space.</p></div>
+					<div class="fact" id="fact5"><img src="images/facts/fact5.jpg" alt="" class="factImage"><p class="content">Dwarf planet Makemake was discovered at Easter 2005. The Easter Island Moai figures were the inspiration for its name. Makemake in Rapa Nui mythology was the creator of humanity and the god of fertility. He is also a feature in many rock and cave drawings on the island.</p></div>
+					<div class="fact" id="fact6"><img src="images/facts/fact6.jpg" alt="" class="factImage"><p class="content">The North Star used for navigation, a steady point in the night sky will change, however not in our lifetime. The Earth is rotating like a spinning top and therefore the pole of our planet wobbles. Currently it points to Polaris but in the year 13727 our Pole Star will be the star Vega, in the constellation of Lyra. Vega was the also North Star in 12000BCE.</p></div>
+					<div class="fact" id="fact7"><img src="images/facts/fact7.jpg" alt="" class="factImage"><p class="content">Our galaxy will collide with Andromeda Galaxy in about 5 billion years. Some astronomers refer to our two galaxy as a binary system of giant spirals.</p></div>
+					<div class="fact" id="fact8"><img src="images/facts/fact8.jpg" alt="" class="factImage"><p class="content">The Moon is moving approximately 3.8 cm away from our planet every year. It is estimated that it will continue to do so for around 50 billion years. By the time that happens, the Moon will be taking around 47 days to orbit the Earth instead of the current 27.3 days.</p></div>
+					<div class="fact" id="fact9"><img src="images/facts/fact9.jpg" alt="" class="factImage"><p class="content">There is only a 10 kilometre difference in its polar diameter compared to its equatorial diameter. Considering the vast expanse of the Sun, this means it is the closest thing to a perfect sphere that has been observed in nature.</p></div>
+					<div class="fact" id="fact10"><img src="images/facts/fact10.jpg" alt="" class="factImage"><p class="content">In 1977, Voyager 1 and 2 were launched. Their primary mission was to visit Jupiter and Saturn. Voyager 2 continued onto Uranus and Neptune; Voyager 1 has now made its way into interstellar space. Voyager 1 is further away from Earth than the distance between the Sun and Pluto. Both craft carry a golden record on board, which will act like a time-capsule of Earth. It has greetings from Earth as well as different kinds of music. It also has noises of rocket engines, the sea, people talking, animal’s sounds and lots of images. All of which sum up the Earth. United States President Jimmy Carter said at the time “This record represents our hope and our determination, and our good will in a vast and awesome universe.” These messages have been recorded as electronic impulses which can be translated into written words. If any aliens find it then can enjoy some Louis Armstrong as well some Peruvian panpipes!</p></div>				
+				</div>
+			</article>
+		</main>
+	</div>
+
+	<!-- Books block -->
+
+	<div id="books">
+		<div id="books_head">			
+			<h1>Are you interested? These books can help you!</h1>			
+		</div>
+		<main>			
+			<article>
+				<div class="book_back">
+					<div class="books_li active_book" id="book1"><h2>Stephen Hawking – A Brief History Of Time</h2><img src="images/books/book1.jpg" alt="" class="bookImage"><p class="content">Stephen Hawking attempts to explain a range of subjects in cosmology, including the Big Bang, black holes and light cones, to the nonspecialist reader. His main goal is to give an overview of the subject, but he also attempts to explain some complex mathematics. In the 1996 edition of the book and subsequent editions, Hawking discusses the possibility of time travel and wormholes and explores the possibility of having a universe without a quantum singularity at the beginning of time. </p> <p class="content"> Early in 1983, Hawking first approached Simon Mitton, the editor in charge of astronomy books at Cambridge University Press, with his ideas for a popular book on cosmology. Mitton was doubtful about all the equations in the draft manuscript, which he felt would put off the buyers in airport bookshops that Hawking wished to reach. With some difficulty, he persuaded Hawking to drop all but one equation. The author himself notes in the book's acknowledgements that he was warned that for every equation in the book, the readership would be halved, hence it includes only a single equation: E = mc<sup>2</sup>. The book does employ a number of complex models, diagrams, and other illustrations to detail some of the concepts it explores.</p></div>
+					<div class="books_li" id="book2"><h2>Lawrence M. Krauss – A Universe from Nothing</h2><img src="images/books/book2.jpg" alt="" class="bookImage"><p class="content">A Universe from Nothing: Why There Is Something Rather than Nothing is a non-fiction book by the physicist Lawrence M. Krauss, initially published on January 10, 2012 by Free Press. It discusses modern cosmogony and its implications for the debate about the existence of God. The main theme of the book is how "we have discovered that all signs suggest a universe that could and plausibly did arise from a deeper nothing - involving the absence of space itself - and which may one day return to nothing via processes that may not only be comprehensible but also processes that do not require any external control or direction." This is Krauss's ninth non-fiction book. </p> <p class="content"> The book ends with an afterword by Richard Dawkins in which he compares the potential impact of the book to that of The Origin of Species — a comparison that Krauss himself called "pretentious". Christopher Hitchens had agreed to write a foreword for the book prior to his death but was too ill to complete it. To write the book, Krauss expanded material from a lecture on the cosmological implications of a flat expanding universe he gave to the Richard Dawkins Foundation at the 2009 Atheist Alliance International conference. The book appeared on The New York Times bestseller list on January 29, 2012.</p></div>
+					<div class="books_li" id="book3"><h2>Carl Sagan – Cosmos</h2><img src="images/books/book3.jpg" alt="" class="bookImage"><p class="content">Cosmos (1980) is a popular science book by astronomer and Pulitzer Prize-winning author Carl Sagan. Its 13 illustrated chapters, corresponding to the 13 episodes of the Cosmos TV series, which the book was co-developed with and intended to complement, explore the mutual development of science and civilization. One of Sagan's main purposes for the book and television series was to explain complex scientific ideas to anyone interested in learning. Sagan also believed the television was one of the greatest teaching tools ever invented, so he wished to capitalize on his chance to educate the world. </p><p class="content"> Spurred in part by the popularity of the TV series, Cosmos spent 50 weeks on the Publishers Weekly best-sellers list and 70 weeks on the New York Times Best Seller list to become the best-selling science book ever published at the time. In 1981, it received the Hugo Award for Best Non-Fiction Book. The book's unprecedented success ushered in a dramatic increase in visibility for science-themed literature. The success of the book also jumpstarted Sagan's literary career. The sequel to Cosmos is Pale Blue Dot: A Vision of the Human Future in Space (1994).</p></div>
+					<div class="books_li" id="book4"><h2>Brian Greene – The Fabric Of Cosmos</h2><img src="images/books/book4.jpg" alt="" class="bookImage"><p class="content">Greene begins with the key question: what is reality? Or more specifically: what is spacetime? He sets out to describe the features he finds both exciting and essential to forming a full picture of the reality painted by modern science. In almost every chapter, Greene introduces basic concepts and then slowly builds to a climax, usually a scientific breakthrough. Greene then attempts to connect with his reader by posing simple analogies to help explain the meaning of a scientific concept without oversimplifying the theory behind it. </p> <p class="content"> In the preface, Greene acknowledges that some parts of the book are controversial among scientists. He discusses the leading viewpoints in the main text and points of contention in the endnotes. The endnotes contain more complete explanations of points that are simplified in the main text.</p></div>
+					<div class="books_li" id="book5"><h2>Michio Kaku – Parallel Worlds</h2><img src="images/books/book5.jpg" alt="" class="bookImage"><p class="content">In this thrilling journey into the mysteries of our cosmos, bestselling author Michio Kaku takes us on a dizzying ride to explore black holes and time machines, multidimensional space and, most tantalizing of all, the possibility that parallel universes may lie alongside our own. Kaku skillfully guides us through the latest innovations in string theory and its most recent iteration, M-theory, which posits that our universe may be just one in an endless multiverse, a singular bubble floating in a sea of infinite bubble universes. If M-theory is proven correct, we may perhaps finally find an answer to the question, "What happened before the big bang?" This is an exciting and unforgettable introduction to the cutting-edge theories of physics and cosmology from one of the preeminent voices in the field. </p> <p class="content"> In Parallel Worlds, Kaku presents many of the leading theories in physics; from Newtonian physics to Relativity to Quantum Physics to String theory and even into the newest version of string theory, called M-theory. He makes available to the reader a comprehensive description of many of the more compelling theories in physics, including many interesting predictions each theory makes, what physicists, astronomers, and cosmologists are looking for now and what technology they are using in their search.</p></div>				
+				</div>
+			</article>
+			<aside>
+				<ul>
+					<li name="#book1" class="books active_books_li">A Brief History Of Time</li>
+					<li name="#book2" class="books">A Universe From Nothing</li>
+					<li name="#book3" class="books">Cosmos</li>
+					<li name="#book4" class="books">The Fabric Of The Cosmos</li>
+					<li name="#book5" class="books">Parallel Worlds</li>					
+				</ul>
+			</aside>
+		</main>
+	</div>
+	  
+	<!-- Planets block -->
+
+	<div id="planets">	
+		<div id="planets_head">			
+			<h1>Find more interesting facts about the Solar System!</h1>			
+		</div>
+		<div class="sol_syst">
+			<div class="planet_container">
+				<div class="mercury planet">                    
+                    <img src="images/sol/mercury.png" alt="">
+                    <span id="mercury_span">MERCURY</span>            
+                </div>
+				<div class="venus planet">
+					<img src="images/sol/venus.png" alt="">
+                    <span id="venus_span">VENUS</span>  
+				</div>
+				<div class="earth planet">
+					<img src="images/sol/earth.png" alt="">
+                    <span id="earth_span">EARTH</span>  
+				</div>
+				<div class="mars planet">
+					<img src="images/sol/mars.png" alt="">
+                    <span id="mars_span">MARS</span>  
+				</div>
+				<div class="jupiter planet">
+					<img src="images/sol/jupiter.png" alt="">
+                    <span id="jupiter_span">JUPITER</span>  
+				</div>
+				<div class="saturn planet">
+					<img src="images/sol/saturn.png" alt="">
+                    <span id="saturn_span">SATURN</span>  
+				</div>
+				<div class="uranus planet">
+					<img src="images/sol/uranus.png" alt="">
+                    <span id="uranus_span">URANUS</span>  
+				</div>
+				<div class="neptune planet">
+					<img src="images/sol/neptune.png" alt="">
+                    <span id="neptune_span">NEPTUNE</span>  
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal Blocks -->
+
+	<div class="modal_blocks">
+		<div id="modal1">
+			<span class="close">X</span> 
+			<h2>Mercury</h2>
+			<p>A year on Mercury is just 88 days long. One solar day (the time from noon to noon on the planet’s surface) on Mercury lasts the equivalent of 176 Earth days while the sidereal day (the time for 1 rotation in relation to a fixed point) lasts 59 Earth days. Mercury is nearly tidally locked to the Sun and over time this has slowed the rotation of the planet to almost match its orbit around the Sun. Mercury also has the highest orbital eccentricity of all the planets with its distance from the Sun ranging from 46 to 70 million km.</p>			
+		</div>
+		<div id="modal2">
+			<span class="close">X</span> 
+			<h2>Venus</h2>
+			<p>Atmospheric pressure on Venus is 92 times greater than the Earth’s. While its size and mass are similar to Earth, the small asteroids are crushed when entering its atmosphere, meaning no small craters lie on the surface of the planet. The pressure felt by a human on the surface would be equivalent to that experienced deep beneath the sea on Earth.</p>		
+		</div>
+		<div id="modal3">
+			<span class="close">X</span> 
+			<h2>Earth</h2>
+			<p>Earth is the only planet not named after a god.
+			The other seven planets in our solar system are all named after Roman gods or goddesses. Although only Mercury, Venus, Mars, Jupiter and Saturn were named during ancient times, because they were visible to the naked eye, the Roman method of naming planets was retained after the discovery of Uranus and Neptune.</p>		
+		</div>
+		<div id="modal4">
+			<span class="close">X</span> 
+			<h2>Mars</h2>
+			<p>On Mars the Sun appears about half the size as it does on Earth.
+			At the closest point to the Sun, the Martian southern hemisphere leans towards the Sun, causing a short, intensely hot summer, while the northern hemisphere endures a brief, cold winter: at its farthest point from the Sun, the Martian northern hemisphere leans towards the Sun, causing a long, mild summer, while the southern hemisphere endures a lengthy, cold winter.</p>		
+		</div>
+		<div id="modal5">
+			<span class="close">X</span> 
+			<h2>Jupiter</h2>
+			<p>The Great Red Spot is a huge storm on Jupiter.
+			It has raged for at least 350 years. It is so large that three Earths could fit inside it.</p>		
+		</div>
+		<div id="modal6">
+			<span class="close">X</span> 
+			<h2>Saturn</h2>
+			<p>Saturn is the flattest planet.
+			Its polar diameter is 90% of its equatorial diameter, this is due to its low density and fast rotation. Saturn turns on its axis once every 10 hours and 34 minutes giving it the second-shortest day of any of the solar system’s planets.</p>		
+		</div>
+		<div id="modal7">
+			<span class="close">X</span> 
+			<h2>Uranus</h2>
+			<p>Uranus was officially discovered by Sir William Herschel in 1781.
+			It is too dim to have been seen by the ancients. At first Herschel thought it was a comet, but several years later it was confirmed as a planet. Herscal tried to have his discovery named “Georgian Sidus” after King George III. The name Uranus was suggested by astronomer Johann Bode. The name comes from the ancient Greek deity Ouranos.</p>		
+		</div>
+		<div id="modal8">
+			<span class="close">X</span> 
+			<h2>Neptune</h2>
+			<p>Neptune has a very active climate.
+			Large storms whirl through its upper atmosphere, and high-speed winds track around the planet at up 600 meters per second. One of the largest storms ever seen was recorded in 1989. It was called the Great Dark Spot. It lasted about five years.</p>		
+		</div>
+		
+		<div id="overlay"></div>
+	</div>
+	<footer>
+		<div class="footer">						
+			<form>
+				<ul>
+					<h3>Got any questions? Contact us!</h3>
+					<li>
+						<label for="name">Name:</label>
+						<input type="text" id="name" placeholder="Your name" name="name_form">
+					</li>
+					<li>	
+						<label for="email">E-mail:</label>
+						<input type="email" id="email" placeholder="Your e-mail" name="email_form">					
+					</li>
+					<li>
+						<label for="comment">Question:</label>
+						<textarea placeholder="Your question" id="comment" cols="40" rows="6"></textarea>
+					</li>	
+					<li>		
+						<input type="submit" id="submit" value="Send">
+					</li>
+				</ul>
+			</form>
+			
+		</div>
+		
+			<div class="links">				
+				<a href="https://www.youtube.com/" target="_blank"><img src="images/icon1.png" alt="" class="icon1"></a>
+				<a href="https://vk.com" target="_blank"><img src="images/icon2.png" alt="" class="icon2"></a>
+				<a href="https://twitter.com" target="_blank"><img src="images/icon3.png" alt="" class="icon3"></a>
+				<a href="https://www.pinterest.com" target="_blank"><img src="images/icon4.png" alt="" class="icon4"></a>
+				<a href="https://www.instagram.com/" target="_blank"><img src="images/icon5.png" alt="" class="icon5"></a>
+				<a href="https://plus.google.com" target="_blank"><img src="images/icon6.png" alt="" class="icon6"></a>
+				<a href="https://www.flickr.com/" target="_blank"><img src="images/icon7.png" alt="" class="icon7"></a>
+				<a href="https://www.facebook.com/" target="_blank"><img src="images/icon8.png" alt="" class="icon8"></a>
+			</div>
+			
+			
+	</footer>
+
+	<script  src="https://code.jquery.com/jquery-3.1.1.min.js"  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="  crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/facts.js"></script>
+	<script type="text/javascript" src="js/books.js"></script>
+	<script type="text/javascript" src="js/planets.js"></script>	
+</body>
+</html>

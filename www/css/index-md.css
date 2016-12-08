@@ -1,0 +1,52 @@
+.quote_text {
+	font-size: 1em;
+}
+
+.quote_author {
+	font-size: 2em;
+}
+
+#facts li, #books li {
+	font-size: 1em;
+	z-index: 6;
+}
+
+#books img {
+	width: 200px;
+}
+
+#books article {
+	height: 640px;
+}
+
+#modal1 {
+	width:500px;	
+}
+
+#modal2 {
+	width:500px;	
+}
+
+#modal3 {
+	width:500px;	
+}
+
+#modal4 {
+	width:500px;	
+}
+
+#modal5 {
+	width:500px;	
+}
+
+#modal6 {
+	width:500px;	
+}
+
+#modal7 {
+	width:500px;	
+}
+
+#modal8 {
+	width:500px;	
+}

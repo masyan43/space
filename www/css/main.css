@@ -1,0 +1,200 @@
+/* FACTS */
+
+#facts_head {
+	width: 100%;
+	background-color: #1a1a1a;
+}
+
+#facts_head h1 {
+	padding: 1%;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: 200;
+	text-align: center;
+	font-size: 4em;
+	letter-spacing: 3px;
+	font-weight: 300;
+}
+
+#facts main {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 1000px;	
+	margin: 3% auto;	
+}
+
+#facts li {
+	list-style-type: none;
+	padding: 2%;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;	
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+#facts h1 {
+	margin: 0;
+}
+
+#facts li:hover {
+	-webkit-transform: translate(20px,0);
+	-moz-transform: translate(20px,0);
+	-o-transform: translate(20px,0);
+	cursor: pointer;
+}
+
+#facts aside {
+	padding: 1%;	
+	width: 25%;
+	background-color: #232323;
+	color: white;	
+}
+
+#facts article {		
+	background-color: #2f2f2f;
+	width: 75%;
+	height: 680px;
+	padding: 1%;
+	color: white;
+	z-index: 6;	
+}
+
+.active_fact_li {
+	background-color: #2f2f2f;
+	-webkit-transform: translate(20px,0);
+	-moz-transform: translate(20px,0);
+	-o-transform: translate(20px,0);
+}
+
+.fact {			
+	display: none;
+}
+
+.active_fact {
+	display: block;	
+	transition: 0.2s ease-in-out;
+}
+
+#facts .content {
+	padding: 1%;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;	
+	font-weight: 400;
+	
+}
+
+.factImage {
+	max-width: 100%;
+	margin-bottom: 2%;	
+	float: left;
+}
+
+div.fact h2 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 1%;
+}
+
+/* BOOKS */
+
+#books_head {
+	width: 100%;
+	background-color: #1a1a1a;
+}
+
+#books_head h1 {
+	padding: 1%;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: 200;
+	text-align: center;
+	font-size: 4em;
+	letter-spacing: 3px;
+	font-weight: 300;
+}
+
+#books main {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 1000px;	
+	margin: 3% auto;	
+}
+
+#books ul {
+	text-align: right;
+}
+
+#books li {
+	list-style-type: none;
+	padding: 2%;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;	
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+#books li:hover {
+	-webkit-transform: translate(-20px,0);
+	-moz-transform: translate(-20px,0);
+	-o-transform: translate(-20px,0);
+	cursor: pointer;
+}
+
+#books aside {
+	padding: 1%;	
+	width: 25%;
+	background-color: #232323;
+	color: white;
+}
+
+#books article {		
+	background-color: #2f2f2f;
+	width: 75%;
+	height: 500px;
+	padding: 1%;
+	color: white;	
+}
+
+.bookImage {
+	height: 90%;	
+	margin-right: 2%;	
+	float: left;
+}
+
+.active_books_li {
+	background-color: #2f2f2f;
+	-webkit-transform: translate(-20px,0);
+	-moz-transform: translate(-20px,0);
+	-o-transform: translate(-20px,0);
+}
+
+#books .content {
+	padding: 1%;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;	
+	font-weight: 400;
+	
+}
+
+.books_li {
+	display: none;	
+}
+
+.active_book {
+	display: block;	
+	transition: 0.2s ease-in-out;
+}
+
+.book_back h2 {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 2%;
+}

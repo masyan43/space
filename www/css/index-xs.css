@@ -1,0 +1,72 @@
+.quote_text {
+	font-size: 0.8em;
+}
+
+.quote_author {
+	font-size: 1em;
+}
+
+header li {		
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size: 0.8em;	
+}
+
+#books img {
+	width: 170px;	
+}
+
+.neil-xs {
+	line-height: 0.4;
+}
+
+.sagan, .tyson, .hawking, .adams, .kaku, .newton {
+	height: 120px;
+	width: 120px;	
+}
+
+#planets img {
+	height: 140px;
+}
+
+#books article {
+	height: 720px;
+}
+
+#modal1 {
+	width:300px;	
+}
+
+#modal2 {
+	width:300px;	
+}
+
+#modal3 {
+	width:300px;	
+}
+
+#modal4 {
+	width:300px;	
+}
+
+#modal5 {
+	width:300px;	
+}
+
+#modal6 {
+	width:300px;	
+}
+
+#modal7 {
+	width:300px;	
+}
+
+#modal8 {
+	width:300px;	
+}
+
+
+#planets span {
+	font-size: 1.5em;
+}

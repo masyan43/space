@@ -1,0 +1,179 @@
+.close {
+	width: 21px;
+	height: 21px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: block;
+	color: white;
+	opacity: 0.5;
+	text-shadow: none;
+	z-index: 16;
+}
+
+.close:hover {
+	opacity: 1;
+	color: white;
+}
+
+
+#overlay {
+	z-index:10; 
+	position:fixed; 
+	background-color:#000; 
+	opacity:0.8;
+	-moz-opacity:0.8;
+	filter:alpha(opacity=80);
+	width:100%; 
+	height:100%; 
+	top:0; 
+	left:0;
+	cursor:pointer;
+	display:none; 
+}	
+
+.modal_blocks h2 {
+	position: absolute;
+	top: 0;	
+	padding: 2%;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.modal_blocks p {
+	padding: 2%;
+	position: absolute;
+	font-family: 'Montserrat', sans-serif;
+	bottom: 0;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.7);	
+}
+
+/* Mercury modal */
+
+#modal1 {		
+	display: none; 
+	opacity: 0;
+	z-index: 15;
+	position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	width:800px;
+	height:433px;
+	background-image: url('../images/sol/modal_mercury.jpg');	
+}
+
+/* Venus modal */
+
+#modal2 {	
+	position: fixed;	
+	display: none; 
+	opacity: 0;
+	z-index: 15;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	width:800px;
+	height:433px;
+	background-image: url('../images/sol/modal_venus.jpg');	
+}
+
+/* Earth modal */
+
+#modal3 {	
+	position: fixed;	
+	display: none; 
+	opacity: 0;
+	z-index: 15;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	width:800px;
+	height:433px;
+	background-image: url('../images/sol/modal_earth.jpg');	
+}
+
+/* Mars modal */
+
+#modal4 {	
+	position: fixed;	
+	display: none; 
+	opacity: 0;
+	z-index: 15;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	width:800px;
+	height:433px;
+	background-image: url('../images/sol/modal_mars.jpg');	
+}
+
+/* Jupiter modal */
+
+#modal5 {	
+	position: fixed;	
+	display: none; 
+	opacity: 0;
+	z-index: 15;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	width:800px;
+	height:433px;
+	background-image: url('../images/sol/modal_jupiter.jpg');	
+}
+
+/* Saturn modal */
+
+#modal6 {	
+	position: fixed;	
+	display: none; 
+	opacity: 0;
+	z-index: 15;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	width:800px;
+	height:433px;
+	background-image: url('../images/sol/modal_saturn.jpg');	
+}
+
+/* Uranus modal */
+
+#modal7 {	
+	position: fixed;	
+	display: none; 
+	opacity: 0;
+	z-index: 15;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	width:800px;
+	height:433px;
+	background-image: url('../images/sol/modal_uranus.jpg');	
+}
+
+/* Neptune modal */
+
+#modal8 {	
+	position: fixed;	
+	display: none; 
+	opacity: 0;
+	z-index: 15;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	width:800px;
+	height:433px;
+	background-image: url('../images/sol/modal_neptune.jpg');	
+}
+
+
+

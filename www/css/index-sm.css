@@ -1,0 +1,89 @@
+header li {		
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 15px;	
+}
+
+.quote_text {
+	font-size: 0.8em;
+}
+
+.quote_author {
+	font-size: 1.2em;
+}
+
+
+
+#facts li:hover {	
+	-webkit-transform: none;
+	-moz-transform: none;
+	-o-transform: none;
+	cursor: pointer;
+}
+
+.active_fact_li {
+	-webkit-transform: none;
+	-moz-transform: none;
+	-o-transform: none;
+	background-color: #2f2f2f;	
+}
+
+#books li:hover {
+	-webkit-transform: none;
+	-moz-transform: none;
+	-o-transform: none;
+	cursor: pointer;
+}
+
+.active_books_li {
+	background-color: #2f2f2f;
+	-webkit-transform: none;
+	-moz-transform: none;
+	-o-transform: none;
+}
+
+#books aside {
+	width: 100%;
+	padding: 1%;	
+	background-color: #232323;
+	color: white;
+}
+
+#books article {
+	width: 100%;
+	height: 700px;		
+	background-color: #2f2f2f;	
+	padding: 1%;
+	color: white;
+	z-index: 0;	
+}
+
+#facts aside {
+	width: 100%;
+	padding: 1%;	
+	background-color: #232323;
+	color: white;
+}
+
+#facts article {
+	width: 100%;
+	max-height: 580px;
+	height: 100%;		
+	background-color: #2f2f2f;	
+	padding: 1%;
+	color: white;
+	z-index: 0;	
+}
+
+#planets img {
+	height: 180px;
+}
+
+
+
+
+
+
+#planets span {
+	font-size: 1.8em;
+}

@@ -1,0 +1,231 @@
+#planets_head {
+	width: 100%;
+	background-color: #1a1a1a;
+}
+
+#planets_head h1 {
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 1%;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: 200;
+	text-align: center;
+	font-size: 4em;
+	letter-spacing: 3px;
+	font-weight: 300;
+}
+
+.planet_container {	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;	
+	background-image: url('../images/sol/back.jpg');
+	background-repeat: repeat;
+}
+
+.planet {
+	margin: 3%;	
+}
+
+/* Mercury */
+
+.mercury {	
+	position: relative;	
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+#mercury_span {
+	display: block;
+	text-align: center;
+	font-size: 3em;
+	opacity: 0.2;
+	color: black;
+	font-weight: 600;
+	position: absolute;
+	margin: auto;
+	top: 40%; left: 0; bottom: 0; right: 0;
+	transition: 0.2s ease-out;
+}
+
+.mercury:hover #mercury_span {
+	opacity: 0.6;	
+}
+
+/* Venus */
+
+.venus {	
+	position: relative;	
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+#venus_span {
+	display: block;
+	text-align: center;
+	font-size: 3em;
+	opacity: 0.2;
+	color: black;
+	font-weight: 600;
+	position: absolute;
+	margin: auto;
+	top: 40%; left: 0; bottom: 0; right: 0;
+	transition: 0.2s ease-out;
+}
+
+.venus:hover #venus_span {
+	opacity: 0.6;	
+}
+/* Earth */
+
+.earth {	
+	position: relative;	
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+#earth_span {
+	display: block;
+	text-align: center;
+	font-size: 3em;
+	opacity: 0.2;
+	color: black;
+	font-weight: 600;
+	position: absolute;
+	margin: auto;
+	top: 40%; left: 0; bottom: 0; right: 0;
+	transition: 0.2s ease-out;
+}
+
+.earth:hover #earth_span {
+	opacity: 0.6;	
+}
+
+/* Mars */
+
+.mars {	
+	position: relative;	
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+#mars_span {
+	display: block;
+	text-align: center;
+	font-size: 3em;
+	opacity: 0.2;
+	color: black;
+	font-weight: 600;
+	position: absolute;
+	margin: auto;
+	top: 40%; left: 0; bottom: 0; right: 0;
+	transition: 0.2s ease-out;
+}
+
+.mars:hover #mars_span {
+	opacity: 0.6;	
+}
+
+/* Jupiter */
+
+.jupiter {	
+	position: relative;	
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+#jupiter_span {
+	display: block;
+	text-align: center;
+	font-size: 3em;
+	opacity: 0.2;
+	color: black;
+	font-weight: 600;
+	position: absolute;
+	margin: auto;
+	top: 40%; left: 0; bottom: 0; right: 0;
+	transition: 0.2s ease-out;
+}
+
+.jupiter:hover #jupiter_span {
+	opacity: 0.6;	
+}
+
+/* Saturn */
+
+.saturn {	
+	position: relative;	
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+#saturn_span {
+	display: block;
+	text-align: center;
+	font-size: 3em;
+	opacity: 0.2;
+	color: black;
+	font-weight: 600;
+	position: absolute;
+	margin: auto;
+	top: 40%; left: 0; bottom: 0; right: 0;
+	transition: 0.2s ease-out;
+}
+
+.saturn:hover #saturn_span {
+	opacity: 0.6;	
+}
+
+/* Uranus */
+
+.uranus {	
+	position: relative;	
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+#uranus_span {
+	display: block;
+	text-align: center;
+	font-size: 3em;
+	opacity: 0.2;
+	color: black;
+	font-weight: 600;
+	position: absolute;
+	margin: auto;
+	top: 40%; left: 0; bottom: 0; right: 0;
+	transition: 0.2s ease-out;
+}
+
+.uranus:hover #uranus_span {
+	opacity: 0.6;	
+}
+
+/* Neptune */
+
+.neptune {	
+	position: relative;	
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+#neptune_span {
+	display: block;
+	text-align: center;
+	font-size: 3em;
+	opacity: 0.2;
+	color: black;
+	font-weight: 600;
+	position: absolute;
+	margin: auto;
+	top: 40%; left: 0; bottom: 0; right: 0;
+	transition: 0.2s ease-out;
+}
+
+.neptune:hover #neptune_span {
+	opacity: 0.6;	
+}
+
+
+
